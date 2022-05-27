@@ -1,0 +1,14 @@
+int main()
+{
+    float altura, altDec, altCen, altMili;
+    
+    printf("informe o valor da altura em metros: ");
+    scanf("%f",&altura);
+
+    altDec = altura * 10;
+    altCen = altura * 100;
+    altMili = altura * 1000;
+    printf("altura em decimetros e %.2f,em centimetros e %.2f, em milimetros e %.2f",altDec,altCen,altMili);
+
+    return 0;
+}
