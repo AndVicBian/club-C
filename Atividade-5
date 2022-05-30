@@ -1,0 +1,36 @@
+int main()
+{
+    int primeiro, segundo, soma, quadrado, quadradop, produto, raizq, somaq;
+    
+    printf("digite o primeiro numero:");
+    scanf("%i",&primeiro);
+    
+    printf("digite o segundo numero:");
+    scanf("%i",&segundo);
+    
+    soma      = primeiro + segundo;
+    
+    quadrado  = segundo * segundo;
+    
+    produto   = quadrado * primeiro;
+    
+    quadradop = primeiro * primeiro;
+    
+    somaq     = quadrado + quadradop;
+    
+    raizq     = sqrt(somaq);
+    
+    
+    printf("A soma é %i\n", soma);
+    printf("O produto do primeiro pelo quadrado do segundo é %i\n", produto);
+    printf("O quadrado do primeiro numero é %i\n", soma);
+    printf("A raiz quadrada da soma entre os numeros é %i\n", raizq);
+    printf("Eu nao sei calcular o seno \n");
+    printf("O modulo do primeiro numero é %i\n", primeiro);
+
+    
+    
+    
+
+    return 0;
+}
