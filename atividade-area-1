@@ -1,0 +1,16 @@
+int main()
+{
+    int c1,a2,r;
+    
+    printf("insira o comprimento da base:");
+    scanf("%d",&c1);
+    
+    printf("insira o altura da base:");
+    scanf("%d",&a2);
+    
+    r = c1 * a2;
+    
+    printf("a area do retagulo é : %d",r);
+    
+
+    return 0;
